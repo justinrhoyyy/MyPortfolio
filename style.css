@@ -37,8 +37,9 @@ html {
 }
 .nav-bar .brand a {
 	font-family: 'Flash Back - Demo', sans-serif;
-	font-size: 3rem;
+	font-size: 2rem;
 	color: white;
+	text-decoration: none;
 }
 .nav-bar .nav-list {
 	display: flex;
@@ -475,6 +476,10 @@ html {
 
 /* Media Query For Desktop Only  */
 @media only screen and (min-width: 1200px) {
+	.nav-bar .brand a {
+		font-size: 3rem;
+	}
+
 	.me .me-info .me-info-heading {
 		font-size: 6rem;
 	}
