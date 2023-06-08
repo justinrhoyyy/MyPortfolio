@@ -420,6 +420,9 @@ html {
 	.nav-bar {
 		width: 80%;
 	}
+	.nav-bar .brand a {
+		font-size: 3rem;
+	}
 	.nav-bar .nav-list ul {
 		transform: translateX(0);
 		position: initial;
